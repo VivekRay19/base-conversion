@@ -1,0 +1,101 @@
+Successful Inputs
+
+
+1. -i 16 -o 2 1ABCD
+Input base: 16
+Input digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+Input number: 1ABCD
+
+Output base: 2
+Output digits: 0 1
+Output number: 11010101111001101
+
+
+2. -i 10 -o 16 4095
+Input base: 10
+Input digits: 0 1 2 3 4 5 6 7 8 9 
+Input number: 4095
+
+Output base: 16
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F      
+Output number: FFF
+
+
+3. -i 2 -o 10 10101010
+Input base: 2
+Input digits: 0 1 
+Input number: 10101010
+
+Output base: 10
+Output digits: 0 1 2 3 4 5 6 7 8 9
+Output number: 170
+
+
+4. -i 36 -o 3 1Z
+Input base: 36
+Input digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Input number: 1Z
+
+Output base: 3
+Output digits: 0 1 2
+Output number: 2122
+
+
+5. -i 10 -o 11 9999
+Input base: 10
+Input digits: 0 1 2 3 4 5 6 7 8 9 
+Input number: 9999
+
+Output base: 11
+Output digits: 0 1 2 3 4 5 6 7 8 9 A
+Output number: 7570
+
+
+6. -i 8 -o 36 777
+Input base: 8
+Input digits: 0 1 2 3 4 5 6 7 
+Input number: 777
+
+Output base: 36
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Output number: E7
+
+
+7. -i 16 -o 17 0
+Input base: 16
+Input digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+Input number: 0
+
+Output base: 17
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F G    
+Output number: 0
+
+
+8. -i 10 -o 20 12345
+Input base: 10
+Input digits: 0 1 2 3 4 5 6 7 8 9 
+Input number: 12345
+
+Output base: 20
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J
+Output number: 1AH5
+
+
+9. -i 10 -o 16 922337203685477580
+Input base: 10
+Input digits: 0 1 2 3 4 5 6 7 8 9 
+Input number: 922337203685477580
+
+Output base: 16
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F      
+Output number: CCCCCCCCCCCCCCC
+
+
+10. -i 2 -o 8 111010011111
+Input base: 2
+Input digits: 0 1 
+Input number: 111010011111
+
+Output base: 8
+Output digits: 0 1 2 3 4 5 6 7
+Output number: 7237

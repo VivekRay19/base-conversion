@@ -1,0 +1,33 @@
+Failed Inputs
+
+
+1. -i 16 -o 2 1ABCG    
+Input base: 16
+Input digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+Input number: 1ABCG
+
+Output base: 2
+Output digits: 0 1
+Error: Invalid digit 'G' for base 16
+
+
+2. -i 1 -o 10 123
+Error: Base must be between 2 and 36
+
+
+3. -i 10 -o 0 100
+Error: Base must be between 2 and 36
+
+
+4. -i 10 -o 16 -5
+Input base: 10
+Input digits: 0 1 2 3 4 5 6 7 8 9 
+Input number: -5
+
+Output base: 16
+Output digits: 0 1 2 3 4 5 6 7 8 9 A B C D E F      
+Error: Invalid digit '-' for base 10
+
+
+5. -i 16 -o 2
+Error: The number string is missing
